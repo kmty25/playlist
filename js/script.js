@@ -17,10 +17,10 @@
 
 // Songs
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
-	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+	"title":"God's Plan",
+	"artist":"Drake",
+	"mp3url":"https://open.spotify.com/track/2XW4DbS6NddZxRPm5rMCeY?si=FwbCTvupSJuryNlqPMH3zA",
+	"imageurl":"https://static.stereogum.com/uploads/2018/01/Scary-Hours-1516452280-640x640.jpg",
 }
 
 var myPlayList = [
@@ -49,15 +49,15 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
-
+  //call fucntion from display list
+displayList()
 
 
 });
 
 function displayList(){
 
-
+$('songs').append("<p>title")
   
 }
 
