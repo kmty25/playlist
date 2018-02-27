@@ -57,7 +57,7 @@ displayList()
 
 function displayList(){
 
-$('songs').append("<p>title")
+$('songs').append("<p>title" + mySong.mp3url)
   
 }
 
